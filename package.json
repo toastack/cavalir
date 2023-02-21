@@ -1,0 +1,24 @@
+{
+  "name": "cavalir",
+  "version": "1.0.0",
+  "description": "A small backend generator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toastack/cavalir.git"
+  },
+  "keywords": [
+    "server",
+    "graphql",
+    "http"
+  ],
+  "author": "toaststack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toastack/cavalir/issues"
+  },
+  "bin":{
+    "caval":"./bin/caval.js"
+  },
+  "homepage": "https://github.com/toastack/cavalir#readme"
+}
