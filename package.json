@@ -2,7 +2,6 @@
   "name": "cavalir",
   "version": "1.0.0",
   "description": "A small backend generator",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/toastack/cavalir.git"
