@@ -10,11 +10,6 @@ try {
 var path = require('path');
 var fs   = require('fs');
 
-var potentialPaths = [
-  path.join(process.cwd(), 'node_modules/cavalir/lib/cavalir'),
-  path.join(__dirname, '../lib/cavalir')
-];
-
 
 if (fs.existsSync(path.join(__dirname, '../lib/cavalir'))) {
     require('../lib/cavalir/command').run();
